@@ -8,5 +8,5 @@ export const signal = createSignalClient({
   recaptchaV3SiteKey: window.RECAPTCHA_V3_KEY,
   recaptchaV2SiteKey: window.RECAPTCHA_V2_KEY,
 
-  signalApiBaseUrl: "https://signal.databowl.com",
+  signalApiBaseUrl: window.SIGNAL_API_BASE_URL,
 });
